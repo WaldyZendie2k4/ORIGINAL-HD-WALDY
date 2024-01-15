@@ -46,7 +46,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/WaldyWritings_Official/5')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/Waldy_Writings')
         ],[
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
@@ -93,7 +93,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/WaldyWritings_Official/5')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/Waldy_Writings')
         ],[
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
