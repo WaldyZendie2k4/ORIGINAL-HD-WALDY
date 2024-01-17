@@ -517,7 +517,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
         
-         elif query.data.startswith("killfilesdq"):
+    elif query.data.startswith("killfilesdq"):
         ident, keyword = query.data.split("#")
         #await query.message.edit_text(f"<b>Fetching Files for your query {keyword} on DB... Please wait...</b>")
         files, total = await get_bad_files(keyword)
